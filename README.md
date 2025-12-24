@@ -1,7 +1,7 @@
 # Final-Project-Alpha-Group-Booking-Hotels-Dec2025
 
 Final Project about Hotel Booking Demand 
-Created by Ivan Taufiqurrahman github.com/Ivan-T4 and M Fawwaz Firjatullah Nursyahdian github.com/
+Created by Ivan Taufiqurrahman github.com/Ivan-T4 and M Fawwaz Firjatullah Nursyahdian https://github.com/Nandafawwaz
 
 dataset source: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand/data
 
