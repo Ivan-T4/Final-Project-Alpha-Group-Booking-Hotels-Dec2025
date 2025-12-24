@@ -17,21 +17,21 @@ dataset source: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-dema
 ---
 Final Project/
 │
-├─ README.md                            # Documentation / overview
+├─ README.md                            # Project overview and instructions
 │
 ├─ booking_cancellations_v2.py          # Streamlit application (main program)
 │
-├─ FP_Alpha_GrandFinale.ipynb           # Full ML notebook (EDA, training, SHAP, modeling)
+├─ FP_Alpha_GrandFinale.ipynb           # Full ML notebook (EDA, training, modeling, SHAP)
 │
-├─ best_model_xgbr_hotel_bookings.sav   # Saved model (pickle) for Streamlit app
+├─ best_model_xgbr_hotel_bookings.sav   # Saved model (pickle) used by the Streamlit app
 │
 ├─ hotel_bookings.csv                   # Original dataset (raw data)
 │
-├─ hotel_bookings_cleaned_v3.csv        # Cleaned dataset used for Tableau dashboard
+├─ hotel_bookings_cleaned_v3.csv        # Cleaned dataset used for Tableau visualizations
 │
-├─ requirements.txt                     # Dependency versions for reproducibility
+├─ requirements.txt                     # Dependency list with specific versions
 │
-└─ runtime.txt                          # Python version for deployment compatibility
+└─ runtime.txt                          # Python version (for Streamlit Cloud / deployment)
 
 ---
 
