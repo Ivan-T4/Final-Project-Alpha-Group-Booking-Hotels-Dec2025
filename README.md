@@ -88,15 +88,6 @@ The project follows a structured machine learning pipeline:
 
 ---
 
-## Metric Evaluation
-
-Performance metrics used:
-- **RMSE (Root Mean Squared Error):** Measures how far predictions deviate from actual values (lower = better).
-- **MAE (Mean Absolute Error):** Average of absolute differences between prediction and true value.
-- **MAPE (Mean Absolute Percentage Error):** Measures relative accuracy in percentage.
-  
----
-
 **Confusion Matrix** 
 
 | **Error Type** | **Intepretation** | **Business Impact** | **Cost** |
