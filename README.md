@@ -7,10 +7,13 @@ dataset source: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-dema
 
 ---
 
-**Link Video:**:
-**Link Presentation:**:
-**Link Application:**: https://final-project-alpha-group-booking-hotels-dec2025-ivan-fawwaz.streamlit.app/
-**Link Tableau**: https://public.tableau.com/app/profile/fawwaz.firjatullah/viz/final_17660709970440/Dashboard?publish=yes
+**Link Video:**
+---
+**Link Presentation:**
+---
+**Link Application:** https://final-project-alpha-group-booking-hotels-dec2025-ivan-fawwaz.streamlit.app/
+---
+**Link Tableau:** https://public.tableau.com/app/profile/fawwaz.firjatullah/viz/final_17660709970440/Dashboard?publish=yes
 ---
 
 ## Context
