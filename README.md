@@ -94,6 +94,8 @@ The project follows a structured machine learning pipeline:
 | --- | --- | --- | --- |
 |False Positive (FP)|The model predicts a booking will be canceled, but in reality, the guest shows up.|❌ Customer dissatisfaction, brand damage, and compensation costs.|Possible overbooking → must relocate or compensate guest. $172 (see before conclusion in notebook) |
 |False Negative (FN)|The model predicts a booking will not be canceled, but it does cancel.|❌ Lost revenue, especially if not rebooked in time.|Room stays empty → direct lost room revenue. (mean adr * mean total nights) = $343 (see before conclusion in notebook) |
+
+
 in this case we see that the impact of empty room cost double than customer dissatisfaction and compensate for other room in same hotel or better
 ---
 $$
