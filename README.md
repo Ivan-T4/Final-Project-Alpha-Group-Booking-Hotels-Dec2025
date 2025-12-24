@@ -15,31 +15,17 @@ dataset source: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-dema
 ---
 **Link Tableau:** https://public.tableau.com/app/profile/fawwaz.firjatullah/viz/final_17660709970440/Dashboard?publish=yes
 ---
-Final Project/
-│
-│-- README.md                         
-# Project overview and instructions
-│
-│ booking_cancellations_v2.py          
-# Streamlit application (main program)
-│
-│ FP_Alpha_GrandFinale.ipynb           
-# Full ML notebook (EDA, training, modeling, SHAP)
-│
-│ best_model_xgbr_hotel_bookings.sav   
-# Saved model (pickle) used by the Streamlit app
-│
-│ hotel_bookings.csv                   
-# Original dataset (raw data)
-│
-│ hotel_bookings_cleaned_v3.csv        
-# Cleaned dataset used for Tableau visualizations
-│
-│ requirements.txt                     
-# Dependency list with specific versions
-│
-│runtime.txt                          
-# Python version (for Streamlit Cloud / deployment)
+
+| File / Folder Name                   | Description                                                     |
+|--------------------------------------|-----------------------------------------------------------------|
+| `README.md`                          | Main documentation explaining the project and how to run it     |
+| `booking_cancellations_v2.py`        | Streamlit application (main program for predictions + visuals)  |
+| `FP_Alpha_GrandFinale.ipynb`         | Machine learning notebook (EDA, training, SHAP, modeling)       |
+| `best_model_xgbr_hotel_bookings.sav` | Saved trained model used by Streamlit (pickle format)           |
+| `hotel_bookings.csv`                 | Original raw dataset                                            |
+| `hotel_bookings_cleaned_v3.csv`      | Cleaned dataset used for Tableau visualizations                 |
+| `requirements.txt`                   | List of Python dependencies with exact versions                 |
+| `runtime.txt`                        | Python version used for deployment (e.g., Streamlit Cloud)      |
 
 ---
 
