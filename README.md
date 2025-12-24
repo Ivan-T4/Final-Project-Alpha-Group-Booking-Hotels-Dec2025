@@ -15,6 +15,25 @@ dataset source: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-dema
 ---
 **Link Tableau:** https://public.tableau.com/app/profile/fawwaz.firjatullah/viz/final_17660709970440/Dashboard?publish=yes
 ---
+Final Project/
+│
+├─ README.md                            # Documentation / overview
+│
+├─ booking_cancellations_v2.py          # Streamlit application (main program)
+│
+├─ FP_Alpha_GrandFinale.ipynb           # Full ML notebook (EDA, training, SHAP, modeling)
+│
+├─ best_model_xgbr_hotel_bookings.sav   # Saved model (pickle) for Streamlit app
+│
+├─ hotel_bookings.csv                   # Original dataset (raw data)
+│
+├─ hotel_bookings_cleaned_v3.csv        # Cleaned dataset used for Tableau dashboard
+│
+├─ requirements.txt                     # Dependency versions for reproducibility
+│
+└─ runtime.txt                          # Python version for deployment compatibility
+
+---
 
 ## Context
 
