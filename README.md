@@ -134,7 +134,53 @@ Dataset posted by Jesse Mostipak in Kaggle and originally from the article Hotel
 The data was downloaded and cleaned by Thomas Mock and Antoine Bichat for #TidyTuesday during the week of February 11th, 2020.
 
 ---
+## Limitation in This Project
 
+- this model is not suitable for different demography or different hotel/resort in different country with different booking cultures
+
+- in the current state after pandemic covid-19 customers might have different behaviour when they booking a room in hotel or resort
+
+- Channel to booking a room or resort change from 2017 like using new platform that doesnt exist in 2017
+
+- Impact on social media in current era has significantly increased so the cost of brand damage, customer dissatisfaction that ranting in social media might more costly than empty room which in this case FP > FN so the confusion matrix might differ and need adjustment.
+
+- using ROS can inflate minority class and cause overfitting
+
+- Hundreds of features because of transforming many features using BinaryEncoding and OneHotEncoding makes intrepretation harder especially for country_full
+
+---
+## Conclusion
+
+- About 1 in 3 hotel bookings end up being canceled — a major operational and financial challenge.
+
+- City Hotels, Online Travel Agent (OTA) bookings, and long lead-time reservations have the highest cancellation risk.
+
+- Guests who make special requests or require parking are more reliable and less likely to cancel.
+
+- Seasonal peaks (April–August) show higher cancellation rates, despite high booking demand.
+
+- The Tuned XGBoost model (F₂ = 0.76) successfully predicts high-risk cancellations with strong accuracy.
+
+- Using the ML model, the hotel could reduce total financial loss from $1.33M to $650K, saving approximately $677,220 in potential revenue.
+
+---
+
+## **Actionable Recommendation for Hotel/Resort Managers**
+- Adopt ML-based cancellation monitoring
+Implement the predictive model in daily booking operations to identify and manage high-risk bookings early — this alone could save over $670K annually.
+
+- Refine deposit and cancellation policies
+Require partial deposits (25–40%) or stricter cancellation windows for OTA and long-lead bookings to minimize speculative reservations.
+
+- Prioritize reliable guest segments
+Promote Direct, Corporate, and Group bookings through loyalty points, discounts, or exclusive perks to stabilize revenue.
+
+- Plan resources by seasonality
+During high-demand months, prepare for higher cancellations by using controlled overbooking, flexible staffing, and targeted re-marketing.
+
+- Leverage guest behavior signals
+Guests with special requests or parking needs show high commitment — offer tailored upsells or rewards to retain and convert these loyal segments.
+---
 ## Important Note
 
 Untuk penjalanan streamlit/program perlu pip install -r runtime.txt dan pip install -r requirements.txt sebelum streamlit run Booking_cancellations_v2.py.
