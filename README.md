@@ -54,7 +54,7 @@ Because the target is classification, by applying machine learning using model l
 
 ---
 
-##Stakeholder
+## Stakeholder
 
 | **Stakeholders** | **Purpose** |
 | --- | --- |
