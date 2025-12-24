@@ -98,10 +98,11 @@ The project follows a structured machine learning pipeline:
 ---
 $$
 Fβ​=(1+β^2)⋅((Precision⋅Recall)/((β^2⋅Precision)+Recall)​)
-$$
+ $$
 
 with β = 2, then
 
+$$
 F2=5⋅((Precision⋅Recall)/((4⋅Precision)+Recall))
 $$
 
